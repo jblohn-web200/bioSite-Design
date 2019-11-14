@@ -1,0 +1,246 @@
+html {
+	font-size: 16px;}
+
+hr {
+	border-style: dashed;
+	border-width: 2px;
+	margin-top: 20px;
+	color: black;
+}
+
+#h1font {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+#h2font {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 19px;
+	margin-left: 10px;
+}
+
+#bannerpic {
+	background-image: url("images/outdoors.jpg");
+	background-repeat: no-repeat;
+	margin-left: 200px;
+}
+
+#h1background {
+	background-color: #a5b9b9;
+}
+
+#mainbcolor {
+	background-color: #d6dede;
+	width: 200px;
+	height: 100px;
+}
+
+#h1bcolor {
+	background-color: #a5b9b9;
+	width: 200px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+#h1example {background-color: #a5b9b9;
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-weight: 500;
+	color: #5F3735;
+	text-align: center;
+}
+
+#h2example {background-color: #D6DEDE;
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-weight: 500;
+	color: #5F3735;
+}
+
+#h2example {position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+	margin: auto;
+	padding: 0 10px;
+	font-size: 19px;}
+
+#h2example::before, #h2example::after {
+	  position: absolute;
+	  top: 51%;
+	  overflow: hidden;
+	  width: 50%;
+	  height: 1px;
+	  content: '\a0';
+	  background-color: #5F3735;
+	}
+
+	#h2example::before {
+	clear: both;
+  margin-left: -50%;
+	text-align: right;
+}
+
+#h2example span {
+	padding: 0px 10px;
+}
+
+#pexample {
+		background-color: #d6dede;
+		font-family: 'IBM Plex Sans', Verdana, Arial, sans-serif;
+		font-weight: 600;
+		color: #2c4444;
+		padding: 10px 0px 10px 10px;
+}
+
+#figexample {
+		background-color: #d6dede;
+		font-family: 'Oswald', Verdana, Arial, sans-serif;
+		font-weight: 400;
+		text-shadow: -.5px .5px 0 #000;
+		color: #2c4444;
+		font-weight: 400;
+		padding: 10px 0px 10px 10px;
+		margin-bottom: 20px;
+}
+
+#pfigcolor {
+	background-color: #2C4444;
+	width: 200px;
+	height: 100px;
+	/*text-align: center;*/
+}
+
+#hdrsmlcolor {
+	background-color: #5F3735;
+	width: 200px;
+	height: 100px;
+}
+
+#fontall {background-color: #517f7f;}
+
+#pfont {
+	font-family: 'IBM Plex Sans', Verdana, Arial, sans-serif;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+#figfont {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 400;
+	text-shadow: -.5px .5px 0 #000;
+	margin-left: 10px;
+}
+
+/* Leaving this in to use as project develops*/
+figure {
+	width: 330px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;}
+
+.allnav {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	text-decoration: none;
+	background-color: #a5b9b9;
+	font-size: 1.2em;
+	text-shadow: -.5px .5px 0 #000;
+	padding: 10px;
+	}
+
+	#navlink {
+		color: #5F3735;
+	}
+
+	#navvisited {
+		color: #2C4444;
+	}
+
+	#navhover {
+		color: #D47969;
+		font-size: 1.5em;
+	}
+
+.toTopexam {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #a5b9b9;
+	padding: 10px;
+}
+
+.toTopexam:link {
+	color: black;
+}
+
+#smallexam {
+font-style: italic;
+float: right;
+background-color: #A5B9B9;
+padding: 10px 10px;
+color: #5F3735;
+font-family: 'Open Sans', Verdana, Arial, sans-serif;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 20px;}
+
+figure img.jpg {
+	width: 320px;
+	height: 213px;
+}
+
+figure img.png {
+	width: 320px;
+	height: 256px;
+}
+
+figure img.gif {
+	width: 320px;
+	height: 180px;
+}
+
+.linktext {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 300;
+}
+
+.leftfloat {
+	float: left;
+	width: 25%;
+	margin: 10px auto;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+.centertext {
+	width: 210px;
+	margin: 0px auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.palettepage {background-color: white;}
+
+.rightfloat {
+	float: right;
+	display: inline;
+}
+
+.hdrcenter {
+	text-align: center;
+}
+
+h1.hdrcenter {
+	margin-bottom: 10px;
+}
+a.hdrcenter {
+	display: block;
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}

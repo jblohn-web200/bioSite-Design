@@ -1,0 +1,220 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #D6DEDE;
+}
+
+h1, h2, small {
+	color: #5F3735;
+}
+
+h1 {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	text-align: center;
+	background-color: #A5B9B9;
+	font-weight: 500;
+}
+
+h2 {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+	margin: auto;
+	padding: 0 10px;
+	font-size: 19px;
+	font-weight: 600;
+}
+
+h2::before, h2::after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '\a0';
+  background-color: #5F3735;
+}
+
+h2.noline::before, h2.noline::after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: '\a0';
+  background-color: #D6DEDE;
+}
+
+h2::before {
+	clear: both;
+  margin-left: -50%;
+	text-align: right;
+}
+
+h2 span {
+	padding: 0px 10px;
+}
+
+footer {
+	text-align: center;
+	background-color: #A5B9B9;
+	padding: 20px 0px;
+	font-weight: 400;
+		/*border-bottom: 20px solid #FFF;*/
+}
+
+footer a {
+	display: block;
+}
+
+small {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-style: italic;
+	float: right;
+	background-color: #A5B9B9;
+	padding-right: 10px;
+}
+
+nav {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+	text-shadow: -.5px .5px 0 #000;  /*vendor prefix not required per caniuse.com*/
+}
+
+nav a {
+	margin-right: 20px;
+}
+
+figure {
+	display: block;
+	text-align: center;
+	height: 340px;
+}
+
+figure img.widepic {
+	width: 320px;
+	height: 244px;
+}
+
+figure img.widepic {
+	width: 320px;
+	height: 320px;
+}
+
+figure img.today {
+	width: 320px;
+	height: 180px;
+}
+
+figure img.longpic {
+	width: 240px;
+	height: 320px;
+}
+
+figure img.shoppic {
+	width: 180px;
+	height: 320px;
+}
+
+p, figcaption{
+	color: #2C4444;
+}
+
+p {
+	font-family: 'IBM Plex Sans', Verdana, Arial, sans-serif;
+	font-weight: 600;
+}
+
+figcaption {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	font-weight: 400;
+	text-shadow: -.5px .5px 0 #000;
+}
+
+figure img {
+	padding-top: 0px;
+	border: .2em solid #FFF;
+}
+
+a {
+	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	text-decoration: none;
+}
+
+a:link {
+	color: #5F3735;
+}
+
+a:visited {
+	color: #2C4444;
+}
+
+a:hover {
+	color: #D47969;
+	font-size: 1.5em;
+}
+
+#h1background {
+	background-color: #A5B9B9;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.banrimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: 192px;
+	height: 120px;
+	border-radius: 5px;
+}
+
+.imagecolumn {
+	width: 33%;
+	float: left;
+	margin: 10px auto;
+}
+
+.pgraphcolumn {
+	float: left;
+	width: 33%;
+	margin: 10px 5px;
+}
+
+.toTop {
+	text-align: center;
+}
+
+.toTop:link {
+	color: black;
+}
+
+.clearfloat {clear: both;}
+
+.conclusion {
+	clear: left;
+	width: 90%;
+	max-width: 90%;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+.noborder {
+	border: none;
+}
+
+.extrapadding {
+	padding-bottom: 50px;
+}
+/*whitebground {
+	background-color: #FFF;
+	padding: 0px;
+}*/
