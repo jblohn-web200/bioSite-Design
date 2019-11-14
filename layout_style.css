@@ -19,44 +19,15 @@ h1 {
 
 h2 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  text-align: center;
-	margin: auto;
-	padding: 0 10px;
 	font-size: 19px;
 	font-weight: 600;
+	text-align: center;
 }
 
-h2::before, h2::after {
-  position: absolute;
-  top: 51%;
-  overflow: hidden;
-  width: 50%;
-  height: 1px;
-  content: '\a0';
-  background-color: #5F3735;
-}
-
-h2.noline::before, h2.noline::after {
-  position: absolute;
-  top: 51%;
-  overflow: hidden;
-  width: 50%;
-  height: 1px;
-  content: '\a0';
-  background-color: #D6DEDE;
-}
-
-h2::before {
-	clear: both;
-  margin-left: -50%;
-	text-align: right;
-}
-
-h2 span {
-	padding: 0px 10px;
+p {
+	font-family: 'IBM Plex Sans', Verdana, Arial, sans-serif;
+	color: #2C4444;
+	font-weight: 600;
 }
 
 footer {
@@ -64,7 +35,6 @@ footer {
 	background-color: #A5B9B9;
 	padding: 20px 0px;
 	font-weight: 400;
-		/*border-bottom: 20px solid #FFF;*/
 }
 
 footer a {
@@ -122,17 +92,9 @@ figure img.shoppic {
 	height: 320px;
 }
 
-p, figcaption{
-	color: #2C4444;
-}
-
-p {
-	font-family: 'IBM Plex Sans', Verdana, Arial, sans-serif;
-	font-weight: 600;
-}
-
 figcaption {
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
+	color: #2C4444;
 	font-weight: 400;
 	text-shadow: -.5px .5px 0 #000;
 }
@@ -201,20 +163,27 @@ a:hover {
 
 .conclusion {
 	clear: left;
-	width: 90%;
 	max-width: 90%;
 	margin: 0px auto;
 	padding: 20px;
 }
 
-.noborder {
-	border: none;
-}
-
 .extrapadding {
 	padding-bottom: 50px;
 }
-/*whitebground {
-	background-color: #FFF;
-	padding: 0px;
-}*/
+
+.hdrlinel {
+	width: 40%;
+	height: 1px;
+	background-color: #5F3735;
+	overflow: hidden;
+	float: left;
+	margin-top: 22px;
+}
+
+.hdrfloat {
+	display: inline;
+	float: left;
+	width: 18%;
+	margin: 10px 5px;
+}
